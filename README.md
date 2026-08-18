@@ -53,3 +53,7 @@ Random Forest delivered excellent results across all evaluation metrics. The mod
 
 Although Random Forest performed exceptionally well, Logistic Regression achieved the highest Accuracy (96.49%), highest F1 Score (0.9726), highest Recall (0.9861), highest AUC (0.9954), and highest MCC (0.9245). Therefore, Logistic Regression is considered the best-performing model for the Breast Cancer Wisconsin Dataset used in this project.
 # Git hub repository link - https://github.com/2025DA04097/ML-Assignment-2
+
+# Conclusion
+
+This project evaluated five machine learning classification algorithms on the Breast Cancer Wisconsin Dataset. The models were assessed using Accuracy, AUC, Precision, Recall, F1-Score, and Matthews Correlation Coefficient (MCC). All models achieved satisfactory performance, with Logistic Regression and Random Forest producing the best results. Logistic Regression emerged as the overall best-performing model due to its superior predictive accuracy, robustness, and excellent class discrimination capability. The results demonstrate that machine learning techniques can effectively support breast cancer diagnosis and classification tasks.
