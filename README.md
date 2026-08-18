@@ -1,5 +1,7 @@
 # ML-Assignment-2
-ML Assignment 2
+# Problem Statement
+The objective of this project is to compare the performance of multiple machine learning classification algorithms on a medical diagnosis dataset. The project involves model training, evaluation, visualization of results and deployment using Streamlit Community Cloud.
+
 
 ## Model performance
 
