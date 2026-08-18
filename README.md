@@ -1,7 +1,23 @@
 # ML-Assignment-2
 # Problem Statement
 The objective of this project is to compare the performance of multiple machine learning classification algorithms on a medical diagnosis dataset. The project involves model training, evaluation, visualization of results and deployment using Streamlit Community Cloud.
+# Implemented models:
 
+#	Model
+1	Logistic Regression
+2	Decision Tree Classifier
+3	K-Nearest Neighbour (kNN) Classifier
+4	Gaussian Naive Bayes
+5	Random Forest Classifier
+# Dataset Description
+# Dataset Name: Breast Cancer Wisconsin Dataset
+Source: UCI Machine Learning Repository / Scikit-Learn Dataset Library
+### Number of Instances: 569
+### Number of Features: 30
+Target Classes:
+Malignant
+Benign
+The dataset contains measurements computed from digitized images of breast mass samples. The objective is to classify tumors as malignant or benign
 
 ## Model performance
 
