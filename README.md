@@ -28,3 +28,27 @@ The dataset contains measurements computed from digitized images of breast mass 
 | KNN | 0.9123 | 0.9559 | 0.9429 | 0.9167 | 0.9296 | 0.8139 |
 | Naive Bayes | 0.9386 | 0.9878 | 0.9452 | 0.9583 | 0.9517 | 0.8676 |
 | Random Forest | 0.9561 | 0.9937 | 0.9589 | 0.9722 | 0.9655 | 0.9054 |
+# Observations
+## Logistic Regression
+
+Logistic Regression achieved the highest accuracy (96.49%) and MCC score (0.9245) among all evaluated models. The model demonstrated excellent classification capability with a very high AUC score of 0.9954, indicating strong discrimination between malignant and benign cases. The high recall value shows that the model successfully identified most positive cases.
+
+## Decision Tree
+
+Decision Tree provided reasonable performance with an accuracy of 91.23%. Although the model is highly interpretable and easy to visualize, it achieved the lowest AUC score among all models, suggesting a weaker ability to distinguish between classes compared to other techniques. The lower MCC value also indicates reduced prediction consistency.
+
+## K-Nearest Neighbors (KNN)
+
+KNN achieved the same accuracy as the Decision Tree model but delivered a significantly better AUC score of 0.9559. The model performed well in identifying similar patterns in the dataset; however, its overall predictive power remained lower than Logistic Regression and Random Forest.
+
+## Naive Bayes
+
+Naive Bayes achieved strong performance despite its assumption of feature independence. With an accuracy of 93.86% and an AUC of 0.9878, the model demonstrated robust classification ability while remaining computationally efficient and simple to implement.
+
+## Random Forest
+
+Random Forest delivered excellent results across all evaluation metrics. The model achieved an accuracy of 95.61%, a high AUC score of 0.9937, and strong precision and recall values. The ensemble approach effectively reduced overfitting and improved generalization, making it one of the most reliable models in this study.
+
+# Overall Winner
+
+Although Random Forest performed exceptionally well, Logistic Regression achieved the highest Accuracy (96.49%), highest F1 Score (0.9726), highest Recall (0.9861), highest AUC (0.9954), and highest MCC (0.9245). Therefore, Logistic Regression is considered the best-performing model for the Breast Cancer Wisconsin Dataset used in this project.
